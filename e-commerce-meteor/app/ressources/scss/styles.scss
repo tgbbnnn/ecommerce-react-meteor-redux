@@ -1,0 +1,80 @@
+.navbar{
+	border-radius: 0;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 80%;
+}
+.product_image{
+	display: block;
+	width: 242px;
+	height: 320px!important;
+}
+.thumbnail{
+	box-shadow:1px 1px 4px black;
+}
+.badge{
+	font-size: 16px;
+}
+.cart_component{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+}
+.panel-heading{
+	text-align: right;
+}
+.panel-heading p{
+	
+	text-align: left;
+}
+.cart_component .cart_content{
+	display: inline-block;
+}
+
+.cart_component .cart_content img {
+	@extend .cart_content;
+}
+.cart_component .cart_content h3 {
+	@extend .cart_content;
+}
+.admin-office .edit-logo{
+	width: 3%;
+	cursor: pointer;
+}
+
+.admin-office .product_office{
+
+	border-bottom : 1px solid grey;
+	width: 90%;
+	margin: 20px auto 0 auto;
+}
+.panel-body .product_card:last-child .product_office{
+	border-bottom : none;
+	width: 90%;
+
+}
+
+.admin-office .product_image{
+	width: 10%;
+	
+	height: 140px!important;
+	display: inline-block;
+}
+
+.admin-office .description{
+	width: 90%;
+}
+
+.admin-office .caption{
+	width: 90%;
+	vertical-align: top;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.admin-office .area{
+	resize : none;
+	display: inline-block;
+	width: 100%;
+}
